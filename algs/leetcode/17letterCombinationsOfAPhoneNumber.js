@@ -3,6 +3,9 @@
  * @return {string[]}
  */
 var letterCombinations = function(digits) {
+  if (digits.length < 1) {
+    return false;
+  }
   var result = [];
   var numberToLetter = {
     '2': 'abc',
