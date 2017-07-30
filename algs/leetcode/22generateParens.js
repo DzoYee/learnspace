@@ -1,6 +1,8 @@
 // -- and += will persist the change in the scope passing in the value;
 // this first snippet of code will not work
 
+//To refactor, reconsider the quality of the original rules you're basing your algorithm off of
+
 var generateParenthesesFailure = function(x) {
   var result = [];
   var opens = x;
